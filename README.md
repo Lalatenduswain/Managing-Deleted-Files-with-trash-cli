@@ -57,7 +57,7 @@ Then add the following line to empty the trash every day at midnight:
 For convenience, you can create aliases in your `~/.bashrc` file to replace `rm` with `trash` and `rm -rf` with `trash-put -rf`:
 
 ```bash
-nano ~/.bashrc
+sudo nano ~/.bashrc or sudo nano /etc/bashrc 
 
 # Add the following lines
 alias rm='trash'
@@ -70,6 +70,7 @@ Reload the `.bashrc` file to apply the changes:
 
 ```bash
 source ~/.bashrc
+source /etc/bashrc
 ```
 
 ## Viewing Trash Contents
