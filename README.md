@@ -70,7 +70,7 @@ Reload the `.bashrc` file to apply the changes:
 
 ```bash
 source ~/.bashrc
-source /etc/bashrc
+source /etc/bash.bashrc
 ```
 
 ## Viewing Trash Contents
